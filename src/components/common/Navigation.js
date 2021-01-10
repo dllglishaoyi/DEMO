@@ -34,8 +34,8 @@ const Navigation = ({user}) => {
                     <Link to={link.path}>{link.title}</Link></li>)}
                 </ul>
                 <span className="menu-avatar-container">
-                    <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" size={38} />
-                    <span className="menu-avatar-name">{`${user.firstName} ${user.lastName}`}</span>    
+                    <Avatar src="https://avatars0.githubusercontent.com/u/922339?v=4" size={38} />
+                    <span className="menu-avatar-name">Happy Inspector</span>    
                 </span>
            </div>
            <i className="icon ion-ios-menu" onClick={()=>setMenuActive(!menuActive)}/>
